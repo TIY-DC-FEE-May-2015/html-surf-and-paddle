@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	font-family: open-sans, verdana, sans-serif;
+
+
+}
+
+.text {
+	line-height: 25px;
+		color: #5d686e;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.text a {
+	text-decoration: underline;
+	color: #a2b3be;
+}
+
+.text a:visited {
+	color: blue;
+}
+
+.hero {
+	background-image: url("assets/images/header.jpg");
+	background-size: cover;
+	height: 523px;
+	text-align: center;
+}
+
+.left-link {
+	text-align: left;
+	text-transform: uppercase;
+	color:	black;
+
+}
+
+
+
+
+
+
+
+.sidebar {
+	smaller gray text
+}
