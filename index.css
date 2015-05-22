@@ -30,13 +30,25 @@ a:hover {
 	color: #016eae;
 }
 
-.text a:visited {
+.social a {
+	text-decoration: none;
+}
+
+p a:visited {
 	color: blue;
 }
 
 p {
 	/*replace .text with p settings; add top/bottom margin*/
+	margin-top: 1.75em;
+	line-height: 1.75em;
+	font-weight: 300;
+	font-family: "open sans";
+
+
 }
+
+
 
 /*smaller gray text for use outside main content*/
 .sub {
@@ -45,7 +57,7 @@ p {
 }
 
 .container {
-	font-family: open-sans, verdana, sans-serif;
+	font-family: "open sans", verdana, sans-serif;
 	font-size: 0px;	
 	color: #5d686e;
 }
@@ -80,23 +92,24 @@ p {
 	margin-right: 5px;
 }
 
+.right {
+	position: absolute;
+	right: 10%;
+	top: 0px;
+}
 
-
-.right-link {
+.info {
 	font-family: oswald;
 	text-transform: uppercase;
 	color: black;
 	height: 40px;
 	line-height: 40px;
-	position: absolute;
-	right: 0px;
-	top: 0px;
 	font-size: 18px;
 }
 
 .link {
 		display: inline-block;
-		margin-left: 10px;
+		margin-left: 0px 5px;
 }
 
 .title {
@@ -122,6 +135,7 @@ p {
 	font-size: 65px;
 	font-family: oswald;
 	line-height: 1.1em;
+	text-transform: uppercase;
 }
 
 .byline {
@@ -132,10 +146,9 @@ p {
 .avatar {
 	display: inline-block;
 	font-size: 13px;
-	
 }
 
-.icon {
+#icon {
 		height: 22px;
 		width: auto;
 		display: inline-block;
@@ -147,16 +160,9 @@ p {
 }
 
 
-
-.text {
-	line-height: 1.75em;
-	font-weight: 300;
-}
-
 .excerpt {
 	border-left: solid 2px #D3D3D3;
 	font-size: 26px;
-
 	padding-left: 10px;
 	margin: 15px 5px;
 	line-height: 54px;
@@ -172,6 +178,22 @@ p {
 	vertical-align: top;
 }
 
+.connect {
+	text-align: center;
+}
+
+#author {
+	font-size: 16px;
+
+}
+
+.social {
+	color: #A2B3BE;
+	margin: 0px 6px;
+	display: inline-block;
+	font-size: 13px;
+}
+
 .adbox {
 	text-align: right;
 	width: 100%;
@@ -185,6 +207,7 @@ p {
 	font-family: oswald;
 	font-size: 18px;
 	color: #016eae;
+	margin-top: 45px;
 
 }
 
@@ -192,7 +215,10 @@ p {
 
 
 
-
+.foot {
+	border-top: #E1E7EA solid 1px;
+	text-align: center;
+}
 
 
 
@@ -200,4 +226,31 @@ p {
 .post-thumb {
 	display: inline-block;
 	width: 25%;
+	position: relative;
 }
+
+.thumb-text {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	bottom: 20px;
+}
+
+.bottom {
+	background-color: #04344F;
+	width: 100%;
+	height: 100px;
+	font-size: 15px;
+}
+
+.copyright {
+	text-align: left;
+
+}
+
+.nav
+	{
+	border-right: solid #5d686e 1px;
+	padding-right: 5px;
+	}
