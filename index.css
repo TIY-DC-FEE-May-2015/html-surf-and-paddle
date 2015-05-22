@@ -94,13 +94,16 @@ a {
 
 .byline {
 	line-height: 20px;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .avatar {
 	width: 100%;
 	height: 100%;
+	display: inline-block;
 }
+
+
 
 .text {
 	line-height: 1.75em;
@@ -131,7 +134,12 @@ a {
  is 278px
 }
 
+.side-heading {
+	font-family: oswald;
+	font-size: 18px;
+	color: #016eae;
 
+}
 
 
 
