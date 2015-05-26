@@ -34,9 +34,8 @@ a:hover {
 	text-decoration: none;
 }
 
-p a:visited {
-	color: blue;
-}
+
+/*whole-page formats*/
 
 p {
 	margin-top: 1.75em;
@@ -45,24 +44,23 @@ p {
 	font-size: 15px;
 }
 
-
-
-/*smaller gray text for use outside main content*/
 .sub {
 	color: #a2b3be;
 	font-size: 14px;
 }
-
-/*consider this for what is now avatar, button link, and social
-.mini {
-	font-size:13px;
-}*/
 
 .container {
 	font-family: "open sans", verdana, sans-serif;
 	font-size: 0px;	
 	color: #5d686e;
 }
+
+.row {
+	position: relative;
+}
+
+
+/*top of page*/
 
 .hero {
 	background-image: url("assets/images/header.jpg");
@@ -73,10 +71,6 @@ p {
 	color: #02344f;
 	font-size: 15px;
 	padding-left: 15px;
-}
-
-.row {
-	position: relative;
 }
 
 .left-side {
@@ -107,6 +101,7 @@ p {
 		display: inline-block;
 		margin-left: 0px 5px;
 }
+
 .info {
 	font-family: oswald;
 	text-transform: uppercase;
@@ -117,8 +112,6 @@ p {
 	margin-right: 7px;
 	margin-left: 4px;
 }
-
-
 
 .title {
 	color: white;
@@ -131,7 +124,7 @@ p {
 }
 
 
-
+/*main content column*/
 
 .center {
 	display: inline-block;
@@ -209,21 +202,20 @@ p {
 	vertical-align: middle;
 }
 
-.blue {
+#blue {
 	background-color: #016EAE;
 }
 
 
 
-
-/* for button img, make a square container with a darker b/g - something universal so that the blue one can use it too?*/
+/*sidebar*/
 
 .sidebar {
 	display: inline-block;
-	width: 278px; /*was 25%*/
+	width: 278px;
 	margin: 83px 10% 50px 0px;
 	vertical-align: top;
-		font-size: 13px;
+	font-size: 13px;
 }
 
 .connect {
@@ -257,12 +249,10 @@ p {
 	color: #016eae;
 	margin-top: 44px;
 	margin-bottom: -21px;
-
 }
 
 
-
-
+/*footer*/
 
 .foot {
 	border-top: #E1E7EA solid 1px;
@@ -272,13 +262,9 @@ p {
 }
 
 .foot .headline {
-	padding-bottom: 39px;
+	padding-bottom: 40px;
+	margin-left: 10px;
 }
-
-.shift {
-	margin-left: 5px;
-}
-
 
 .post-thumb {
 	display: inline-block;
@@ -288,7 +274,6 @@ p {
 .post-thumb img {
 	width: 100%;
 }
-
 
 .cover {
 	background-color: rgba(0,111,169, .75);
@@ -317,8 +302,6 @@ p {
 	line-height: 1.25em;
 }
 
-
-
 .bottom {
 	background-color: #04344F;
 	height: 100px;
@@ -335,6 +318,7 @@ p {
 	display: inline-block;
 	vertical-align: top;
 	float: left;
+	margin-left: 6px;
 }
 
 .nav
@@ -344,7 +328,6 @@ p {
 	padding-right: 5px;
 	line-height: 1em;
 	letter-spacing: .01em;
-
 	}
 
 .nav:last-of-type {
