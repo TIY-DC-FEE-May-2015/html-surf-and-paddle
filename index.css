@@ -39,14 +39,10 @@ p a:visited {
 }
 
 p {
-	/*replace .text with p settings; add top/bottom margin*/
 	margin-top: 1.75em;
 	line-height: 1.75em;
-	font-weight: 300;
 	font-family: "open sans";
 	font-size: 15px;
-
-
 }
 
 
@@ -76,6 +72,7 @@ p {
 	text-align: center;
 	color: #02344f;
 	font-size: 15px;
+	padding-left: 15px;
 }
 
 .row {
@@ -85,13 +82,14 @@ p {
 .left-side {
 	text-align: left;
 	text-transform: uppercase;
-	line-height: 40px;
+	line-height: 44px;
 	height: 40px;
 	vertical-align: top;
 	position: absolute;
-	left:	40px;
+	left:	10%;
 	top: 10px;
-	font-size: 18px;
+	font-size: 16px;
+	letter-spacing: -.015em;
 }
 
 .logo {
@@ -101,7 +99,7 @@ p {
 
 .right {
 	position: absolute;
-	right: 10%;
+	right: 11.25%;
 	top: 20px;
 }
 
@@ -116,17 +114,20 @@ p {
 	height: 40px;
 	line-height: 20px;
 	font-size: 18px;
-	margin-right: 5px;
+	margin-right: 7px;
+	margin-left: 4px;
 }
 
 
 
 .title {
 	color: white;
-	font-size: 100px;
+	font-size: 105px;
 	text-align: center;
-	padding-top: 176.5px;
+	padding-top: 189px;
 	text-shadow: 2px 2px #116296;
+	margin-bottom: -20px;
+	letter-spacing: -.04em;
 }
 
 
@@ -134,46 +135,53 @@ p {
 
 .center {
 	display: inline-block;
-	width: 50%;
-	margin: 62px 5% 50px 10%;
+	width: 48.5%;
+	margin: 62px 6.1% 51px 12.75%;
 }
 
 .headline {
 	color: #023450;
-	font-size: 65px;
+	font-size: 64px;
 	font-family: oswald;
 	line-height: 1.1em;
 	text-transform: uppercase;
+	letter-spacing: -.013em
 }
 
 .byline {
-	line-height: 20px;
-
+	margin-top: 7px;
+	margin-bottom: 29px;
+	letter-spacing: -.02em;
 }
 
 .avatar {
 	display: inline-block;
 	font-size: 13px;
+
 }
 
 #icon {
-		height: 22px;
+		height: 28px;
 		width: auto;
 		display: inline-block;
+		vertical-align: middle;
+		margin: 0px 4px;
+		padding-bottom: 6px;
 }
 
 .date {
 	display: inline-block;
-	
+	margin-left: 10px;
 }
 
 
 .excerpt {
 	border-left: solid 2px #D3D3D3;
-	font-size: 26px;
-	padding-left: 10px;
-	margin: 15px 5px;
-	line-height: 54px;
+	font-size: 27px;
+	padding-left: 17px;
+	padding-top: 7px;
+	margin: 20px 6px;
+	line-height: 49px;
 	color: #016EAE;
 }
 
@@ -182,17 +190,18 @@ p {
 	color: white;
 	background-color: #A2B3BE;
 	line-height: 30px;
-	margin: 20px 10px 18px 0px;
-	padding-right: 10px;
-	font-size: 14px;
+	margin: 19px 7px 18px 3px;
+	padding-right: 12px;
+	font-size: 13px;
 	height: 30px;	
 }
 
 .button-icon {
 	background-color: rgba(0,0,25,0.5);
 	display: inline-block;
-	width: 35px;
+	width: 33px;
 	text-align: center;
+	margin-right: 9px;
 }
 
 .button-icon img {
@@ -212,7 +221,7 @@ p {
 .sidebar {
 	display: inline-block;
 	width: 278px; /*was 25%*/
-	margin: 50px 10% 50px 0px;
+	margin: 83px 10% 50px 0px;
 	vertical-align: top;
 		font-size: 13px;
 }
@@ -230,6 +239,7 @@ p {
 	color: #A2B3BE;
 	margin: 0px 6px;
 	display: inline-block;
+	margin: 0px 5px 0px 7pxs;
 
 }
 
@@ -240,16 +250,13 @@ p {
 	padding-top: 52px;
 }
 
-.ad-image {
- is 278px
-}
 
 .side-heading {
 	font-family: oswald;
 	font-size: 18px;
 	color: #016eae;
-	margin-top: 45px;
-	margin-bottom: -19px;
+	margin-top: 44px;
+	margin-bottom: -21px;
 
 }
 
@@ -268,24 +275,39 @@ p {
 	padding-bottom: 39px;
 }
 
-
+.shift {
+	margin-left: 5px;
+}
 
 
 .post-thumb {
 	display: inline-block;
 	width: 25%;
-
 }
 
 .post-thumb img {
 	width: 100%;
+}
 
+
+.cover {
+	background-color: rgba(0,111,169, .75);
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	top: 0;
+	color: rgba(0, 52, 78, 1);
+	color: #00344E;
+}
+
+.cover:hover {
+	background-color: rgba(0,111,169,.35);
+	color: white;
 }
 
 .thumb-text {
 	text-transform: uppercase;
-	font-size: 30px;
-	color: white;
+	font-size: 29px;
 	position: absolute;
 	bottom: 10px;
 	font-family: oswald;
@@ -300,11 +322,12 @@ p {
 .bottom {
 	background-color: #04344F;
 	height: 100px;
-	line-height: 40px;
-	padding: 30px 160px;
-	font-size: 15px;
+	line-height: 42px;
+	padding: 27px 10.75% 0px 160px;
+	font-size: 14px;
 	color: #A2B3BE;
 	text-align: right;
+	letter-spacing: -.017em;
 }
 
 .copyright {
@@ -320,6 +343,7 @@ p {
 	border-right: solid #5d686e 1px;
 	padding-right: 5px;
 	line-height: 1em;
+	letter-spacing: .01em;
 
 	}
 
